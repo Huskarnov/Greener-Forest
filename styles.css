@@ -16,6 +16,7 @@ body{
     flex-direction: column;
      padding: 24px 200px 100px 200px;
      gap: 72px;
+     
 }
 
 
@@ -69,6 +70,7 @@ body{
     width: 50%;
     height: 220px;
     object-fit:fill;
+    border-radius: 15px;
 }
 
 .header-content button{
@@ -76,7 +78,156 @@ body{
     color: #f9faf8;;
     font-weight: bolder;
     font-size: 18px;
-    border-radius: 25px;
+    border-radius: 15px;
     border-color: transparent;
     padding: 8px 16px;
 }   
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.four-cards{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 88px;
+    padding: 50px
+     
+}
+
+.four-cards .title{
+    font-size: 36px;
+    font-weight: 900;
+     
+}
+
+.cards-group{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+     
+    
+      
+     
+}
+
+
+.card{
+    height: auto;
+    width: 200px;
+    border-width: 5px;
+    border-radius: 15px;
+    border-color: #3882f6;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    align-items: center;
+
+    
+}
+
+.card img{
+    object-fit:cover;
+    height: 150px;
+    width: 150px;
+    border-radius: 15px;
+
+    box-shadow: 0 0 5px #1f2937, 0 0 5px #7b8899, 0 0 5px #1f2937;
+}
+
+.card p{
+    color: rgb(58, 56, 56);
+    font-weight: 500;
+    width: 150px;
+}
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+
+.citation-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: end;
+    padding: 100px 120px 100px 350px;
+    background-color: #e5e7eb;
+}
+
+.citation-block p{
+    font-size: 36px;
+    color: #1f2937af;
+    font-style: italic;
+    font-weight: 400;
+    
+}
+
+.citation-block .autor-name{
+    font-weight: 900;
+    color: #1f2937;
+    font-size: 24px;
+}
+
+
+/* //////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* //////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.call-to-action-block{
+display: flex;
+flex-direction: row;
+justify-content: start;
+padding: 100px 100px 100px 48px
+}
+
+.blue-div{
+    background-color: #3882f6;
+    border-radius: 10px;
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 150px;
+    color: #f9faf8;
+    padding: 33px 133px;
+}
+
+.call-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    }
+
+.blue-div .call-title{
+    font-size: 28px;
+    font-weight: 700;
+  
+}
+
+.blue-div p{
+    color: #f9faf8b7;
+    padding: 0;
+    margin: 0;
+}
+
+
+.blue-div button{
+    color: #f9faf8;
+    border-width: 2px;
+    border-color: #f9faf8;
+    background-color: #3882f6;
+    padding: 5px 33px;
+    border-radius: 11px ;
+    border-style: solid;
+    font-size: 18px;
+    font-weight: 600;
+}
+
